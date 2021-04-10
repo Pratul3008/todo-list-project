@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("todo.jpg");
+    background-size: cover;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container{
+   width: 50vw;
+   height: 100vh;
+   margin: auto;
+}
+
+
+h2{
+    text-align: center;
+    margin: 5%;
+   
+}
+
+
+   
+
+
+
+.content{
+    width: 99.6%;
+    height: 65%;
+    margin: 1.4%;
+    background-color: white;
+    border: 5px solid black;
+    overflow-y: scroll;
+    
+}
+
+#list{
+   
+    margin: 4%;
+    list-style-type: none;
+    
+}
+
+.date{
+     margin: 5%;
+     text-align: center;
+}
+
+.panel{
+    width: 100%;
+    height: 8%;
+     margin: 1.3%;
+     display: flex;
+     justify-content: space-between;
+    }
+
+#addtask{
+    width: 77%;
+    height: 100%;
+    color:rgb(117, 110, 110);
+    border: 5px solid black;
+}
+
+#add{
+    height:105%;
+    width: 10%;
+   }
+
+#refresh{
+   
+   
+    width:8%;
+    height: 98%;
+    
+   
+   
+}
+
+img:hover{
+    cursor: pointer;
+   
+}
+
+ .delete{
+    width: 4%;
+    margin-left: 100%; 
+    
+    
+} 
+
+li{
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+.uncheck{
+    width: 3%;
+
+}
+
+span{
+    margin: 2%;
+}
+

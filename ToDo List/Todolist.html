@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletodolist.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Todo List</title>
+</head>
+<body onload="date()">
+  <div class="container">
+    
+    
+    <h2>TO-DO LIST</h2>
+
+    <div class="date">
+    </div>
+
+    <div class="panel">
+        <input type="text" name="task" placeholder="Add your task" id="addtask">
+        <img src="add.png" id="add" onclick="addTask()">
+        <img src="refresh.png" id="refresh" onclick="clearTasks()">
+    </div>
+
+     <div class="content">
+          <ul id="list">
+          </ul>
+     </div>
+
+
+      
+  </div>
+
+  <script src="todo.js"></script>
+    
+</body>
+</html>
